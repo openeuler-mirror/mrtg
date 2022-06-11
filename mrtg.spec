@@ -5,8 +5,8 @@
 %global __find_provides %_sourcedir/filter-provides-mrtg.sh
 
 Name:               mrtg
-Version:            2.17.7
-Release:            3
+Version:            2.17.10
+Release:            1
 Summary:            Multi Router Traffic Grapher
 
 License:            GPLv2+
@@ -122,5 +122,8 @@ fi
 %{_mandir}/*/*
 
 %changelog
+* Sat Jun 11 2022 YukariChiba <i@0x7f.cc> - 2.17.10-1
+- Upgrade version
+
 * Thu Nov 21 2019 openEuler Buildteam <buildteam@openeuler.org> - 2.17.7-3
 - Package init

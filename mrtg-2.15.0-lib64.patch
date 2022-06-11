@@ -1,7 +1,7 @@
-diff -up mrtg-2.17.7/bin/cfgmaker.orig mrtg-2.17.7/bin/cfgmaker
---- mrtg-2.17.7/bin/cfgmaker.orig	2018-07-13 08:09:56.000000000 +0200
-+++ mrtg-2.17.7/bin/cfgmaker	2018-08-08 13:07:38.419241131 +0200
-@@ -44,7 +44,7 @@ BEGIN {
+diff --color -urN mrtg-2.17.10-old/bin/cfgmaker mrtg-2.17.10/bin/cfgmaker
+--- mrtg-2.17.10-old/bin/cfgmaker	2022-01-19 18:25:15.000000000 +0800
++++ mrtg-2.17.10/bin/cfgmaker	2022-06-11 20:34:50.456508492 +0800
+@@ -44,7 +44,7 @@
  
  use FindBin;
  use lib "${FindBin::Bin}";
@@ -10,10 +10,10 @@ diff -up mrtg-2.17.7/bin/cfgmaker.orig mrtg-2.17.7/bin/cfgmaker
  
  use MRTG_lib "2.100015";
  use Getopt::Long;
-diff -up mrtg-2.17.7/bin/indexmaker.orig mrtg-2.17.7/bin/indexmaker
---- mrtg-2.17.7/bin/indexmaker.orig	2018-07-13 08:09:56.000000000 +0200
-+++ mrtg-2.17.7/bin/indexmaker	2018-08-08 13:08:41.187309764 +0200
-@@ -48,7 +48,7 @@ BEGIN {
+diff --color -urN mrtg-2.17.10-old/bin/indexmaker mrtg-2.17.10/bin/indexmaker
+--- mrtg-2.17.10-old/bin/indexmaker	2022-01-19 18:25:15.000000000 +0800
++++ mrtg-2.17.10/bin/indexmaker	2022-06-11 20:34:50.456508492 +0800
+@@ -48,7 +48,7 @@
  
  use FindBin;
  use lib "${FindBin::Bin}";
@@ -22,10 +22,10 @@ diff -up mrtg-2.17.7/bin/indexmaker.orig mrtg-2.17.7/bin/indexmaker
  
  use MRTG_lib "2.100016";
  use Getopt::Long;
-diff -up mrtg-2.17.7/bin/mrtg.orig mrtg-2.17.7/bin/mrtg
---- mrtg-2.17.7/bin/mrtg.orig	2018-07-13 08:09:56.000000000 +0200
-+++ mrtg-2.17.7/bin/mrtg	2018-08-08 13:09:07.459338491 +0200
-@@ -81,7 +81,7 @@ ERR
+diff --color -urN mrtg-2.17.10-old/bin/mrtg mrtg-2.17.10/bin/mrtg
+--- mrtg-2.17.10-old/bin/mrtg	2022-01-19 18:25:15.000000000 +0800
++++ mrtg-2.17.10/bin/mrtg	2022-06-11 20:34:50.457508492 +0800
+@@ -81,7 +81,7 @@
  
  use FindBin;
  use lib "${FindBin::Bin}";
@@ -34,10 +34,10 @@ diff -up mrtg-2.17.7/bin/mrtg.orig mrtg-2.17.7/bin/mrtg
  use Getopt::Long;
  use Math::BigFloat;
  
-diff -up mrtg-2.17.7/bin/mrtg-traffic-sum.orig mrtg-2.17.7/bin/mrtg-traffic-sum
---- mrtg-2.17.7/bin/mrtg-traffic-sum.orig	2017-03-05 15:09:52.000000000 +0100
-+++ mrtg-2.17.7/bin/mrtg-traffic-sum	2018-08-08 13:08:17.650284034 +0200
-@@ -33,7 +33,7 @@ BEGIN {
+diff --color -urN mrtg-2.17.10-old/bin/mrtg-traffic-sum mrtg-2.17.10/bin/mrtg-traffic-sum
+--- mrtg-2.17.10-old/bin/mrtg-traffic-sum	2021-10-08 20:05:24.000000000 +0800
++++ mrtg-2.17.10/bin/mrtg-traffic-sum	2022-06-11 20:34:50.457508492 +0800
+@@ -33,7 +33,7 @@
  
  use FindBin;
  use lib "${FindBin::Bin}";
